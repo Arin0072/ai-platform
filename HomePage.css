@@ -1,0 +1,62 @@
+.home-layout {
+  display: flex;
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+  background: #f9f9fb;
+}
+
+/* ===== SIDEBAR ===== */
+.sidebar {
+  width: 240px;
+  background: linear-gradient(180deg, #ff8fa3, #ff758f);
+  padding: 30px 20px;
+  color: white;
+}
+
+.brand {
+  margin-bottom: 40px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 12px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.sidebar li:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar .active {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* ===== FEED ===== */
+.feed {
+  flex: 1;
+  padding: 40px;
+}
+
+.feed h1 {
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.post {
+  background: white;
+  padding: 20px;
+  border-radius: 14px;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  transition: 0.2s;
+}
+
+.post:hover {
+  transform: translateY(-3px);
+}
